@@ -1,46 +1,60 @@
 # Saurabh Store Data Analysis
+# Saurabh Yadav Store Report
 
-This project involves analyzing the data from the "Saurabh Store" dataset to extract meaningful insights, including delivery times, packages stuck in transit, shipping delays, and other relevant metrics.
-<img src="" >
 ## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Data Description](#data-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Analysis Workflow](#analysis-workflow)
-- [Results](#results)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+1. [Project Overview](#project-overview)
+2. [Data Description](#data-description)
+3. [Data Analysis](#data-analysis)
+    - [Orders vs Sales](#orders-vs-sales)
+    - [Demographic Insights (Men vs Women)](#demographic-insights-men-vs-women)
+    - [Order Status Overview](#order-status-overview)
+    - [Top 5 States Sales](#top-5-states-sales)
+    - [Order vs Age Group](#order-vs-age-group)
+    - [Order by Channels](#order-by-channels)
+4. [Usage](#usage)
+5. [Conclusion](#conclusion)
 
 ## Project Overview
-
-This analysis focuses on understanding the shipping performance, customer experience, and operational efficiency of the Saurabh Store. The primary objectives are to:
-
-1. Calculate delivery times.
-2. Identify packages stuck in transit.
-3. Detect shipping delays.
-4. Check SLA compliance.
-5. Identify the most shipped items.
+The Saurabh Yadav Store Report 2022 is an analytical project focusing on the sales and performance data of the Saurabh Yadav Store throughout the year. The project aims to uncover insights that can drive strategic decisions, optimize sales channels, and improve customer satisfaction. The analysis includes various metrics such as monthly sales trends, demographic distribution, order status, regional sales performance, and the efficiency of sales channels.
 
 ## Data Description
+The dataset used for this analysis includes various dimensions and metrics related to store sales. The primary categories of data are:
 
-The dataset used in this project contains the following columns:
+- **Channel**: Sales channels through which the orders were placed (e.g., Ajio, Amazon, Flipkart, etc.).
+- **Month**: The month in which the sales occurred, allowing for time-series analysis.
+- **Category**: The types of products sold, categorized by items such as Kurta, Saree, Set, Top, and Western Dress.
+- **Order ID**: A unique identifier for each order placed.
+- **Amount**: The total revenue generated from each order.
+- **Customer Demographics**: Gender and age group of customers.
+- **Order Status**: The status of the orders, including Delivered, Canceled, Refunded, and Returned.
 
-- **Order #**: Unique identifier for each order.
-- **Ship By Date**: The latest date by which the order should be shipped.
-- **Ship After Date**: The earliest date by which the order can be shipped.
-- **Carrier**: The shipping carrier used for the order (e.g., USPS, UPS).
-- **Service**: The shipping service level (e.g., Priority Mail, 2nd Day Air).
-- **Receipt Date**: Date when the order was received.
-- **Ship Date**: Date when the order was shipped.
-- **Delivery Date**: Date when the order was delivered.
-- **Days to Delivery**: Calculated number of days between the ship date and delivery date.
+## Data Analysis
 
-Additional columns are included to capture various aspects of the order and shipping process.
+### Orders vs Sales
+This section of the report analyzes the correlation between the number of orders and the total sales revenue. The data is presented monthly, showing how these metrics fluctuate over time.
 
+### Demographic Insights (Men vs Women)
+This part of the report explores the gender distribution of the customers, highlighting the proportion of sales contributed by men and women.
+
+### Order Status Overview
+A breakdown of the order statuses, offering insight into the proportion of successful deliveries versus orders that were canceled, refunded, or returned.
+
+### Top 5 States Sales
+This analysis identifies the top 5 states by total sales revenue, revealing regional trends and performance.
+
+### Order vs Age Group
+This section looks at the distribution of orders across different age groups, providing insights into which age demographics are most active in the store.
+
+### Order by Channels
+An analysis of how orders are distributed across various sales channels, such as Flipkart, Myntra, Amazon, etc., showing which channels are most effective.
+
+## Usage
+- **Data Filtering**: Filter the data by Channel, Month, and Category to get specific insights.
+- **Custom Analysis**: The report is customizable to include additional metrics or different data sets.
+- **Visualization**: The dashboard offers a clear visual representation of key performance indicators (KPIs).
+
+## Conclusion
+The Saurabh Yadav Store Report 2022 provides a comprehensive analysis of the store’s performance across various dimensions. The insights gained from this report can be used to optimize business strategies, enhance customer experience, and improve overall sales efficiency.
 ## Installation
 
 To run the analysis, you'll need to have Python and the necessary libraries installed. Follow these steps:
