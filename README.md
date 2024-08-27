@@ -66,5 +66,5 @@ git clone https://github.com/yourusername/saurabh-store-data-analysis.git
 # Navigate to the project directory
 cd saurabh-store-data-analysis
 
-# Install dependencies
-pip install -r requirements.txt
+# Opening it into Excel
+Dual Click to open in excel sheet 
